@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stone Papers Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="modal.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+      <div class="container">
+          <header class="header">
+              <h1>Rock Paper Scissors</h1>
+              <button id="restart" class="restart-btn">Restart Button</button>
+              <div id="score" class="score">
+                  <p>player: 0</p>
+                  <p>Computer: 0</p>
+              </div>
+          </header>
+          <h2>Make Your Selection</h2>
+          <div class="choices">
+              <i id="rock" class="choice fas fa-hand-rock"></i>
+              <i id="paper" class="choice fas fa-hand-paper"></i>
+              <i id="Scissors" class="choice fas fa-hand-scissors"></i>
+          </div>
+      </div>
+      <div class="modal">
+          <div id="result" class="modal-content"></div>
+      </div>
+    <script src="main.js"></script>
+  </body>
+</html>
